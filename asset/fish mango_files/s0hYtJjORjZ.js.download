@@ -1,0 +1,4 @@
+;/*FB_PKG_DELIM*/
+
+__d("usePolarisSetupProfileGatingREST",["useGatedContentInfo","usePolarisPreloadedGetQuery"],(function(a,b,c,d,e,f,g){"use strict";function a(a){a=c("usePolarisPreloadedGetQuery")(a);return c("useGatedContentInfo")(a)}g["default"]=a}),98);
+__d("usePolarisSetupProfileQuery",["PolarisProfileActions","usePolarisGetQuerySetup","usePolarisPreloadedGetQuery"],(function(a,b,c,d,e,f,g){"use strict";function a(a){a=c("usePolarisPreloadedGetQuery")(a);c("usePolarisGetQuerySetup")(a,d("PolarisProfileActions").setupProfilePage)}g["default"]=a}),98);
